@@ -1,0 +1,16 @@
+{
+  "name": "Flapper-News-Rails",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Scully87/Flapper-News-Rails",
+  "authors": [
+    "Scully87 <scully87.ts@googlemail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
