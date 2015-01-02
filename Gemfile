@@ -19,6 +19,8 @@ gem 'angular-rails-templates'
 
 gem 'normalize-rails'
 
+gem 'angular_rails_csrf'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
