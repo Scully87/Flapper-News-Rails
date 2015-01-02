@@ -15,4 +15,7 @@ angular.module('flapperNews')
         });
         $scope.body = '';
       };
+    $scope.incrementUpvotes = function(comment){
+      posts.upvoteComment(post, comment);
+    };
   }])
