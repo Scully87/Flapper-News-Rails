@@ -13,10 +13,55 @@
  *= require bootstrap/dist/css/bootstrap
  *= require normalize-rails
  *= require_tree .
+ *= require_self
 
  */
 
 body {
-	padding: 10px;
-	margin: 10px;
+	background-color: #324259;
+	color: #ffffff;
+	margin:0;
+	padding:0;
+}
+.col-md-6 {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+header.page-header h1 {
+	color:#ffffff;
+}
+
+a.ng-binding {
+	color: #ffffff;
+}
+
+a {
+	color: #ffffff;
+}
+
+span.post-title {
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+form.add-post {
+	margin-top: 30px;
+}
+
+span.comment-body {
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+form.add-comment {
+	margin-top: 30px;
+}
+
+.glyphicon-thumbs-up {
+	color: #ffffff;
+}
+
+.glyphicon-thumbs-down {
+	color: #ffffff;
 }
