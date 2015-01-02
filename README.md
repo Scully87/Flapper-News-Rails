@@ -15,6 +15,6 @@ Flapper-News-Rails
 
 	- Ruby on Rails
 	- AngularJS
-	- SQLite
+	- PostgreSQL
 	- NodeJS
 	- Bootstrap
