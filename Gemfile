@@ -19,6 +19,8 @@ gem 'spring',      group: :development
 
 gem 'angular-rails-templates'
 
+gem 'normalize-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

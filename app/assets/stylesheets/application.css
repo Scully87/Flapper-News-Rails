@@ -11,6 +11,12 @@
  * file per style scope.
  *
  *= require bootstrap/dist/css/bootstrap
+ *= require normalize-rails
  *= require_tree .
 
  */
+
+body {
+	padding: 10px;
+	margin: 10px;
+}
