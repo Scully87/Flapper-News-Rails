@@ -35,5 +35,8 @@ angular.module('flapperNews')
         return posts.get($stateParams.id);
       }]
     }
+    o.addComment = function(id, comment) {
+      return $http.post('/posts/' + id + '/comments.json', comment);
+    };
     return o;
   }])
