@@ -7,5 +7,10 @@ app.factory('posts', ['$http', function(){
       angular.copy(data, o.posts);
     });
   };
+  resolve: {
+	  postPromise: ['posts', function(posts){
+	    return posts.getAll();
+	  }]
+	}
 	return o;
 }])
