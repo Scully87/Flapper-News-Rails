@@ -1,6 +1,8 @@
 Flapper-News-Rails
 =====================
 
+###This Project is Still Under Development
+
 ###Created a News Clone using RAILS
 
 ###Live Project link can be found [HERE](http://flappernews.herokuapp.com)
