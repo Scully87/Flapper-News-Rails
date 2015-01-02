@@ -29,6 +29,11 @@ angular.module('flapperNews')
       return $http.get('/posts/' + id).then(function(res){
         return res.data;
       });
-    };
+    }
+    resolve: {
+      post: ['$stateParams', 'posts', function($stateParams, posts) {
+        return posts.get($stateParams.id);
+      }]
+    }
     return o;
   }])
