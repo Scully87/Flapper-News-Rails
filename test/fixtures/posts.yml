@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tite: MyString
+  link: MyString
+  upvotes: 1
+
+two:
+  tite: MyString
+  link: MyString
+  upvotes: 1
