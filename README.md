@@ -1,7 +1,7 @@
 Flapper-News-Rails
 =====================
 
-###This Project is Still Under Development
+:construction: This Project is Still Under Development :construction:
 
 ###Created a News Clone using RAILS
 
